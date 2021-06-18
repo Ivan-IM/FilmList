@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		CF828A49267C5B7F00BC52C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A48267C5B7F00BC52C3 /* AppDelegate.swift */; };
 		CF828A4B267C5B7F00BC52C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A4A267C5B7F00BC52C3 /* SceneDelegate.swift */; };
-		CF828A4D267C5B7F00BC52C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A4C267C5B7F00BC52C3 /* ViewController.swift */; };
 		CF828A50267C5B7F00BC52C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF828A4E267C5B7F00BC52C3 /* Main.storyboard */; };
 		CF828A52267C5B8100BC52C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF828A51267C5B8100BC52C3 /* Assets.xcassets */; };
 		CF828A55267C5B8100BC52C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF828A53267C5B8100BC52C3 /* LaunchScreen.storyboard */; };
+		CF828A5E267C6BF100BC52C3 /* ComedyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A5D267C6BF100BC52C3 /* ComedyModel.swift */; };
+		CF828A60267C6C0A00BC52C3 /* ComedyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A5F267C6C0A00BC52C3 /* ComedyTableViewController.swift */; };
+		CF828A63267C6CCF00BC52C3 /* HorrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A62267C6CCF00BC52C3 /* HorrorModel.swift */; };
+		CF828A65267C6CDA00BC52C3 /* HorrorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A64267C6CDA00BC52C3 /* HorrorTableViewController.swift */; };
+		CF828A68267C6D4400BC52C3 /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A67267C6D4400BC52C3 /* AnimationModel.swift */; };
+		CF828A6A267C6D5100BC52C3 /* AnimationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A69267C6D5100BC52C3 /* AnimationTableViewController.swift */; };
+		CF828A6D267C6DBF00BC52C3 /* ActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A6C267C6DBF00BC52C3 /* ActionModel.swift */; };
+		CF828A6F267C6DC900BC52C3 /* ActionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A6E267C6DC800BC52C3 /* ActionTableViewController.swift */; };
+		CF828A72267C6E5700BC52C3 /* DramaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A71267C6E5700BC52C3 /* DramaModel.swift */; };
+		CF828A74267C6E6100BC52C3 /* DramaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A73267C6E6100BC52C3 /* DramaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF828A45267C5B7F00BC52C3 /* FilmList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF828A48267C5B7F00BC52C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF828A4A267C5B7F00BC52C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF828A4C267C5B7F00BC52C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF828A4F267C5B7F00BC52C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF828A51267C5B8100BC52C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF828A54267C5B8100BC52C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF828A56267C5B8100BC52C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF828A5D267C6BF100BC52C3 /* ComedyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyModel.swift; sourceTree = "<group>"; };
+		CF828A5F267C6C0A00BC52C3 /* ComedyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyTableViewController.swift; sourceTree = "<group>"; };
+		CF828A62267C6CCF00BC52C3 /* HorrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorModel.swift; sourceTree = "<group>"; };
+		CF828A64267C6CDA00BC52C3 /* HorrorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorTableViewController.swift; sourceTree = "<group>"; };
+		CF828A67267C6D4400BC52C3 /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		CF828A69267C6D5100BC52C3 /* AnimationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTableViewController.swift; sourceTree = "<group>"; };
+		CF828A6C267C6DBF00BC52C3 /* ActionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModel.swift; sourceTree = "<group>"; };
+		CF828A6E267C6DC800BC52C3 /* ActionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTableViewController.swift; sourceTree = "<group>"; };
+		CF828A71267C6E5700BC52C3 /* DramaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaModel.swift; sourceTree = "<group>"; };
+		CF828A73267C6E6100BC52C3 /* DramaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		CF828A47267C5B7F00BC52C3 /* FilmList */ = {
 			isa = PBXGroup;
 			children = (
+				CF828A5C267C6BCF00BC52C3 /* Comedy */,
+				CF828A61267C6CB000BC52C3 /* Horror */,
+				CF828A66267C6D0300BC52C3 /* Animation */,
+				CF828A6B267C6D8F00BC52C3 /* Action */,
+				CF828A70267C6E3A00BC52C3 /* Drama */,
 				CF828A48267C5B7F00BC52C3 /* AppDelegate.swift */,
 				CF828A4A267C5B7F00BC52C3 /* SceneDelegate.swift */,
-				CF828A4C267C5B7F00BC52C3 /* ViewController.swift */,
 				CF828A4E267C5B7F00BC52C3 /* Main.storyboard */,
 				CF828A51267C5B8100BC52C3 /* Assets.xcassets */,
 				CF828A53267C5B8100BC52C3 /* LaunchScreen.storyboard */,
 				CF828A56267C5B8100BC52C3 /* Info.plist */,
 			);
 			path = FilmList;
+			sourceTree = "<group>";
+		};
+		CF828A5C267C6BCF00BC52C3 /* Comedy */ = {
+			isa = PBXGroup;
+			children = (
+				CF828A5D267C6BF100BC52C3 /* ComedyModel.swift */,
+				CF828A5F267C6C0A00BC52C3 /* ComedyTableViewController.swift */,
+			);
+			path = Comedy;
+			sourceTree = "<group>";
+		};
+		CF828A61267C6CB000BC52C3 /* Horror */ = {
+			isa = PBXGroup;
+			children = (
+				CF828A62267C6CCF00BC52C3 /* HorrorModel.swift */,
+				CF828A64267C6CDA00BC52C3 /* HorrorTableViewController.swift */,
+			);
+			path = Horror;
+			sourceTree = "<group>";
+		};
+		CF828A66267C6D0300BC52C3 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CF828A67267C6D4400BC52C3 /* AnimationModel.swift */,
+				CF828A69267C6D5100BC52C3 /* AnimationTableViewController.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		CF828A6B267C6D8F00BC52C3 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				CF828A6C267C6DBF00BC52C3 /* ActionModel.swift */,
+				CF828A6E267C6DC800BC52C3 /* ActionTableViewController.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		CF828A70267C6E3A00BC52C3 /* Drama */ = {
+			isa = PBXGroup;
+			children = (
+				CF828A71267C6E5700BC52C3 /* DramaModel.swift */,
+				CF828A73267C6E6100BC52C3 /* DramaTableViewController.swift */,
+			);
+			path = Drama;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +204,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF828A4D267C5B7F00BC52C3 /* ViewController.swift in Sources */,
+				CF828A68267C6D4400BC52C3 /* AnimationModel.swift in Sources */,
+				CF828A74267C6E6100BC52C3 /* DramaTableViewController.swift in Sources */,
+				CF828A60267C6C0A00BC52C3 /* ComedyTableViewController.swift in Sources */,
 				CF828A49267C5B7F00BC52C3 /* AppDelegate.swift in Sources */,
+				CF828A6F267C6DC900BC52C3 /* ActionTableViewController.swift in Sources */,
+				CF828A72267C6E5700BC52C3 /* DramaModel.swift in Sources */,
+				CF828A6A267C6D5100BC52C3 /* AnimationTableViewController.swift in Sources */,
+				CF828A6D267C6DBF00BC52C3 /* ActionModel.swift in Sources */,
+				CF828A65267C6CDA00BC52C3 /* HorrorTableViewController.swift in Sources */,
+				CF828A5E267C6BF100BC52C3 /* ComedyModel.swift in Sources */,
 				CF828A4B267C5B7F00BC52C3 /* SceneDelegate.swift in Sources */,
+				CF828A63267C6CCF00BC52C3 /* HorrorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
