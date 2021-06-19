@@ -25,10 +25,6 @@ class HorrorTableViewController: UITableViewController {
         horrors.count
     }
     
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        1
-    }
-    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         130
     }
@@ -40,11 +36,7 @@ class HorrorTableViewController: UITableViewController {
             for: indexPath)
         
         let singleHorror = horrors[indexPath.row]
-//        let content = cell.defaultContentConfiguration()
-        
-//        content.text = singleHorror.name
-//        content.secondaryText = singleHorror.author
-//        content.image = UIImage(named: singleHorror.image)
+
         cell.textLabel?.text = singleHorror.name
         cell.detailTextLabel?.text = singleHorror.author
         cell.imageView?.image = UIImage(named: singleHorror.image)
@@ -52,8 +44,6 @@ class HorrorTableViewController: UITableViewController {
         cell.selectionStyle = .none
         cell.backgroundColor = .systemTeal
         
-        
-
         return cell
     }
     
