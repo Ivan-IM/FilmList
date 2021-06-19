@@ -14,12 +14,22 @@ class HorrorTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        tableView.backgroundColor = .systemTeal
+//        tableView.backgroundColor = .systemTeal
 
     }
 
     // MARK: - Table view data source
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let detailedHorrorVC = segue.destination as? DetailedHorrorViewController,
+              let indexPath = tableView.indexPathForSelectedRow
+        else { return }
+        
+        let horror = horrors[indexPath.row]
+        detailedHorrorVC.horrorFilm = horror
+        
+    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         horrors.count
@@ -42,7 +52,7 @@ class HorrorTableViewController: UITableViewController {
         cell.imageView?.image = UIImage(named: singleHorror.image)
         
         cell.selectionStyle = .none
-        cell.backgroundColor = .systemTeal
+//        cell.backgroundColor = .systemTeal
         
         return cell
     }

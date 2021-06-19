@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6DDF7D7267E814600C450B4 /* DetailedHorrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF7D6267E814600C450B4 /* DetailedHorrorViewController.swift */; };
 		CF828A49267C5B7F00BC52C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A48267C5B7F00BC52C3 /* AppDelegate.swift */; };
 		CF828A4B267C5B7F00BC52C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A4A267C5B7F00BC52C3 /* SceneDelegate.swift */; };
 		CF828A50267C5B7F00BC52C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF828A4E267C5B7F00BC52C3 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6DDF7D6267E814600C450B4 /* DetailedHorrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedHorrorViewController.swift; sourceTree = "<group>"; };
 		CF828A45267C5B7F00BC52C3 /* FilmList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF828A48267C5B7F00BC52C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF828A4A267C5B7F00BC52C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CF828A64267C6CDA00BC52C3 /* HorrorTableViewController.swift */,
+				B6DDF7D6267E814600C450B4 /* DetailedHorrorViewController.swift */,
 				CF828A62267C6CCF00BC52C3 /* HorrorModel.swift */,
 			);
 			path = Horror;
@@ -209,6 +212,7 @@
 				CF828A60267C6C0A00BC52C3 /* ComedyTableViewController.swift in Sources */,
 				CF828A49267C5B7F00BC52C3 /* AppDelegate.swift in Sources */,
 				CF828A6F267C6DC900BC52C3 /* ActionTableViewController.swift in Sources */,
+				B6DDF7D7267E814600C450B4 /* DetailedHorrorViewController.swift in Sources */,
 				CF828A72267C6E5700BC52C3 /* DramaModel.swift in Sources */,
 				CF828A6A267C6D5100BC52C3 /* AnimationTableViewController.swift in Sources */,
 				CF828A6D267C6DBF00BC52C3 /* ActionModel.swift in Sources */,
