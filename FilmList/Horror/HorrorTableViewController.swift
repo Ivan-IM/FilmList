@@ -20,7 +20,8 @@ class HorrorTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        tableView.rowHeight = 90
+        tableView.rowHeight = 100
+    
         
     }
 
@@ -28,6 +29,10 @@ class HorrorTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         horrors.count
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        5
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -38,6 +43,7 @@ class HorrorTableViewController: UITableViewController {
         
         let singleHorror = horrors[indexPath.row]
 //        let content = cell.defaultContentConfiguration()
+        
 //        content.text = singleHorror.name
 //        content.secondaryText = singleHorror.author
 //        content.image = UIImage(named: singleHorror.image)

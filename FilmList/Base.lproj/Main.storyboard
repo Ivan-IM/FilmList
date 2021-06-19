@@ -32,7 +32,7 @@
         <!--Horror-->
         <scene sceneID="Vx6-eu-Ia6">
             <objects>
-                <tableViewController title="Horror" id="rbN-iG-KmL" customClass="HorrorTableViewController" customModule="FilmList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Horror" modalPresentationStyle="fullScreen" id="rbN-iG-KmL" customClass="HorrorTableViewController" customModule="FilmList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aDD-9d-Mw5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="7wM-rL-wez" detailTextLabel="pfB-7P-yww" style="IBUITableViewCellStyleSubtitle" id="blu-Dz-fYK">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="blu-Dz-fYK" id="vpY-H8-re1">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="blu-Dz-fYK" id="vpY-H8-re1">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>

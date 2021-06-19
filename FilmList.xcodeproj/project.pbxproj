@@ -101,8 +101,8 @@
 		CF828A61267C6CB000BC52C3 /* Horror */ = {
 			isa = PBXGroup;
 			children = (
-				CF828A62267C6CCF00BC52C3 /* HorrorModel.swift */,
 				CF828A64267C6CDA00BC52C3 /* HorrorTableViewController.swift */,
+				CF828A62267C6CCF00BC52C3 /* HorrorModel.swift */,
 			);
 			path = Horror;
 			sourceTree = "<group>";
