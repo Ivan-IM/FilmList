@@ -16,7 +16,6 @@ struct Comedy {
             Comedy(title: "1+1", subTitle: "Intouchables, 2011"),
             Comedy(title: "Операция Ы и другие приключения Шурика", subTitle: "1965"),
             Comedy(title: "Один дома", subTitle: "Home alone, 1990"),
-            Comedy(title: "12 стульев", subTitle: "1971"),
             Comedy(title: "Невероятная история Уолтера Митти", subTitle: "Secret life of Walter Mitty, 2013"),
             Comedy(title: "Стажер", subTitle: "Intern, 2015"),
             Comedy(title: "Мальчишник в Вегасе", subTitle: "Hangover, 2009")

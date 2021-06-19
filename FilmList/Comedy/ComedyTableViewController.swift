@@ -24,6 +24,7 @@ class ComedyTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         cell.textLabel?.text = comedies[indexPath.row].title
+        cell.imageView?.image = UIImage(named: comedies[indexPath.row].title)
         cell.detailTextLabel?.text = comedies[indexPath.row].subTitle
         
         return cell
