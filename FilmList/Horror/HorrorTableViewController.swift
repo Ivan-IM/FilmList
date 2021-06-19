@@ -37,8 +37,8 @@ class HorrorTableViewController: UITableViewController {
         
         let singleHorror = horrors[indexPath.row]
 
-        cell.textLabel?.text = singleHorror.name
-        cell.detailTextLabel?.text = singleHorror.author
+        cell.textLabel?.text = "\(singleHorror.name) (\(singleHorror.year))"
+        cell.detailTextLabel?.text = "Director: \(singleHorror.author)"
         cell.imageView?.image = UIImage(named: singleHorror.image)
         
         cell.selectionStyle = .none
