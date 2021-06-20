@@ -10,10 +10,10 @@ import UIKit
 class ActionTableViewController: UITableViewController {
     
     private var actionsList = Action.getActionsList()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        Film.getAction()
     }
 
     // MARK: - Table view data source
@@ -84,3 +84,4 @@ class ActionTableViewController: UITableViewController {
     */
 
 }
+

@@ -22,6 +22,8 @@
 		CF828A6F267C6DC900BC52C3 /* ActionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A6E267C6DC800BC52C3 /* ActionTableViewController.swift */; };
 		CF828A72267C6E5700BC52C3 /* DramaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A71267C6E5700BC52C3 /* DramaModel.swift */; };
 		CF828A74267C6E6100BC52C3 /* DramaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828A73267C6E6100BC52C3 /* DramaTableViewController.swift */; };
+		CF828AE6267F1F6300BC52C3 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828AE5267F1F6300BC52C3 /* FilmModel.swift */; };
+		CF828AE8267F21A900BC52C3 /* FilmsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828AE7267F21A900BC52C3 /* FilmsBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		CF828A6E267C6DC800BC52C3 /* ActionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTableViewController.swift; sourceTree = "<group>"; };
 		CF828A71267C6E5700BC52C3 /* DramaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaModel.swift; sourceTree = "<group>"; };
 		CF828A73267C6E6100BC52C3 /* DramaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaTableViewController.swift; sourceTree = "<group>"; };
+		CF828AE5267F1F6300BC52C3 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		CF828AE7267F21A900BC52C3 /* FilmsBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				CF828A51267C5B8100BC52C3 /* Assets.xcassets */,
 				CF828A53267C5B8100BC52C3 /* LaunchScreen.storyboard */,
 				CF828A56267C5B8100BC52C3 /* Info.plist */,
+				CF828AE5267F1F6300BC52C3 /* FilmModel.swift */,
+				CF828AE7267F21A900BC52C3 /* FilmsBase.swift */,
 			);
 			path = FilmList;
 			sourceTree = "<group>";
@@ -204,9 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF828AE8267F21A900BC52C3 /* FilmsBase.swift in Sources */,
 				CF828A68267C6D4400BC52C3 /* AnimationModel.swift in Sources */,
 				CF828A74267C6E6100BC52C3 /* DramaTableViewController.swift in Sources */,
 				CF828A60267C6C0A00BC52C3 /* ComedyTableViewController.swift in Sources */,
+				CF828AE6267F1F6300BC52C3 /* FilmModel.swift in Sources */,
 				CF828A49267C5B7F00BC52C3 /* AppDelegate.swift in Sources */,
 				CF828A6F267C6DC900BC52C3 /* ActionTableViewController.swift in Sources */,
 				CF828A72267C6E5700BC52C3 /* DramaModel.swift in Sources */,
