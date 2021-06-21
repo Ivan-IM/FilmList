@@ -8,30 +8,48 @@
 import UIKit
 
 class AnimationTableViewController: UITableViewController {
-    
-    let animation = Animation.getAnimation()
+    let networkService = NetworkService()
+    var animation: Results? = nil
+    //let animation = Animation.getAnimation()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let urlString = "https://itunes.apple.com/search?term=Animation&limit=10&entity=movie"
+        networkService.request(urlString: urlString) { [weak self] (result) in
+            switch result {
+            case .success(let results):
+                results.results.map { (films) in
+                    self?.animation = results
+                    self?.tableView.reloadData()
+                }
+            case .failure(let error):
+                print(error)
+            }
+        }
+        
+        
         tableView.rowHeight = 70
     }
+    
+    
 
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return animation.count
+        return animation?.results.count ?? 0
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
+        let film = animation?.results[indexPath.row]
         
-        content.text = animation[indexPath.row].title
-        content.secondaryText = animation[indexPath.row].description
-        content.image = UIImage(named: animation[indexPath.row].image)
+        content.text = film?.trackName
+        content.secondaryText = film?.artistName
+        //content.image = UIImage(named: animation[indexPath.row].image)
         
         cell.contentConfiguration = content
         
