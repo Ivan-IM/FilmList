@@ -17,6 +17,7 @@ extension Animation {
          Animation(title: "Тачки", description: "США, 14 марта 2006", image: "Cars"),
          Animation(title: "ВАЛЛИ", description: "США, 21 июня 2008", image: "walle"),
          Animation(title: "В поисках Немо", description: "США, 18 мая 2003", image: "Finding Nemo"),
+         Animation(title: "Ледниковый период", description: "США, 12 марта 2002", image: "Ice Age"),
          Animation(title: "Ледниковый период", description: "США, 12 марта 2002", image: "Ice Age")
         ]
     }
