@@ -14,7 +14,7 @@ struct Results: Decodable {
 
 struct Animation: Decodable {
     var trackName: String
-    var artistName: String
+    var shortDescription: String?
     var artworkUrl100: String?
 }
 

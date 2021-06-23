@@ -10,7 +10,6 @@ import UIKit
 class AnimationTableViewController: UITableViewController {
     let networkService = NetworkService()
     var animation: Results? = nil
-    //let animation = Animation.getAnimation()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +36,7 @@ class AnimationTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+        
         return animation?.results.count ?? 0
     }
 
@@ -49,8 +48,8 @@ class AnimationTableViewController: UITableViewController {
         let imageURL = URL(string: (film?.artworkUrl100)!)
         
         content.text = film?.trackName
-        content.secondaryText = film?.artistName
-        //content.image = UIImage(named: animation[indexPath.row].image)
+        content.secondaryText = film?.shortDescription
+        
         if let dataIMG = try? Data(contentsOf: imageURL!) {
             content.image = UIImage(data: dataIMG)
         }
