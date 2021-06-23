@@ -15,7 +15,7 @@ class AnimationTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let urlString = "https://itunes.apple.com/search?term=Animation&limit=10&entity=movie"
+        let urlString = "https://itunes.apple.com/search?term=Animation+Kids&limit=25"
         networkService.request(urlString: urlString) { [weak self] (result) in
             switch result {
             case .success(let results):
@@ -46,10 +46,14 @@ class AnimationTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
         let film = animation?.results[indexPath.row]
+        let imageURL = URL(string: (film?.artworkUrl100)!)
         
         content.text = film?.trackName
         content.secondaryText = film?.artistName
         //content.image = UIImage(named: animation[indexPath.row].image)
+        if let dataIMG = try? Data(contentsOf: imageURL!) {
+            content.image = UIImage(data: dataIMG)
+        }
         
         cell.contentConfiguration = content
         
