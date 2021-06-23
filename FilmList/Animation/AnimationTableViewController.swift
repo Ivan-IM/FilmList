@@ -11,6 +11,7 @@ class AnimationTableViewController: UITableViewController {
     let networkService = NetworkService()
     var animation: Results? = nil
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -45,12 +46,12 @@ class AnimationTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
         let film = animation?.results[indexPath.row]
-        let imageURL = URL(string: (film?.artworkUrl100)!)
+        guard let filmImage = film?.artworkUrl100 else { return cell}
         
         content.text = film?.trackName
         content.secondaryText = film?.shortDescription
         
-        if let dataIMG = try? Data(contentsOf: imageURL!) {
+        if let dataIMG = try? Data(contentsOf: URL(string: filmImage)!) {
             content.image = UIImage(data: dataIMG)
         }
         
